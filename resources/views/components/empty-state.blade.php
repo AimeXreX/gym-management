@@ -1,0 +1,2 @@
+@props(['title','description'=>'','icon'=>'inbox'])
+<x-card {{ $attributes->class('py-12 text-center sm:py-16') }}><div class="mx-auto mb-5 grid size-14 place-items-center rounded-2xl bg-indigo-50 text-indigo-600 ring-1 ring-indigo-100 dark:bg-indigo-500/10 dark:text-indigo-300 dark:ring-indigo-400/10"><x-icon :name="$icon" :size="24"/></div><h2 class="text-base font-black">{{ $title }}</h2><p class="mx-auto mt-2 max-w-lg text-sm leading-7 muted">{{ $description }}</p>@if(trim($slot))<div class="mt-6 flex justify-center gap-3">{{ $slot }}</div>@endif</x-card>

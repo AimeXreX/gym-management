@@ -1,0 +1,1 @@
+<div role="status" aria-label="{{ __('ui.loading') }}" {{ $attributes->class('premium-card space-y-4 p-5') }}><div class="skeleton h-5 w-1/3"></div><div class="skeleton h-24 w-full"></div><div class="flex gap-3"><div class="skeleton h-9 w-24"></div><div class="skeleton h-9 w-20"></div></div><span class="sr-only">{{ __('ui.loading') }}</span></div>

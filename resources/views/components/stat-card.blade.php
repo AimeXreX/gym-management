@@ -1,0 +1,2 @@
+@props(['label','value','icon'=>'activity','hint'=>null,'tone'=>'indigo'])
+<x-card {{ $attributes->class('relative overflow-hidden') }}><div class="flex items-start justify-between gap-4"><div><p class="text-[13px] font-semibold muted">{{ $label }}</p><p class="mt-3 text-3xl font-black tracking-tight">{{ $value }}</p>@if($hint)<p class="mt-2 text-xs muted">{{ $hint }}</p>@endif</div><span class="grid size-10 place-items-center rounded-xl bg-{{ $tone }}-50 text-{{ $tone }}-600 dark:bg-{{ $tone }}-500/10 dark:text-{{ $tone }}-300"><x-icon :name="$icon"/></span></div></x-card>

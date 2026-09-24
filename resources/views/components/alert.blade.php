@@ -1,0 +1,1 @@
+<div role="status" {{ $attributes->class('flex gap-3 rounded-2xl border border-indigo-200/70 bg-indigo-50/80 p-4 text-sm leading-6 text-indigo-950 dark:border-indigo-400/15 dark:bg-indigo-500/8 dark:text-indigo-100') }}><x-icon name="activity" class="mt-0.5 text-indigo-500"/><div>{{ $slot }}</div></div>
