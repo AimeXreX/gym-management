@@ -5,9 +5,6 @@
 [![Livewire](https://img.shields.io/badge/Livewire-4-fb70a9?logo=livewire&logoColor=white)](https://livewire.laravel.com)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38bdf8?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![MySQL](https://img.shields.io/badge/MySQL-8-4479a1?logo=mysql&logoColor=white)](https://www.mysql.com)
-[![Tests](https://img.shields.io/badge/tests-187%20passed-22c55e)]()
-[![License](https://img.shields.io/badge/license-MIT-4f46e5)]()
-
 سامانه فارسی و RTL مدیریت چندباشگاهی با Laravel 13، شامل مدیریت شعب، اعضا، عضویت، پرداخت، حضور، مربی، کلاس، گزارش، CSV، QR و تنظیمات عملیاتی.
 
 ## نصب محلی
